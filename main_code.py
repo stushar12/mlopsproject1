@@ -109,7 +109,7 @@ print(model.summary())
 
 
 # Training Parameters
-batch_size = 128
+batch_size = 64
 epochs = 6
 
 history = model.fit(x_train, y_train,
