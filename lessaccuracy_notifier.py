@@ -1,9 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-host_address = "stushar@gmail.com"
-host_pass = "CSE1805718"
-guest_address = "1805718@gmail.com"
+host_address = "***********@gmail.com"
+host_pass = "***************"
+guest_address = "*********@gmail.com"
 subject = "Regarding failure of main.py having less accuracy then the desired one"
 content = '''Hello, 
 				Developer this is an email regarding to your last commit. It seems that your main.py has not reached to the desired accuracy level.

@@ -1,9 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-host_address = "stushar345gmail.com"
-host_pass = "CSE1805718"
-guest_address = "1805718@kiit.ac.in"
+host_address = "***********.com"
+host_pass = "*************"
+guest_address = "***************@gmail.com"
 subject = "Regarding Success of your model "
 content = '''Hello, 
 				Developer this is an email regarding to your last commit. Your last commit was taken into consideration and based on that the trained model has given best accuracy .
