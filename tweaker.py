@@ -30,7 +30,7 @@ if new_accuracy > old_accuracy and new_accuracy - old_accuracy >= 0.00001 :
 		else :
 			entered_data += 1	 #leaving the number of filters in convolve layer , rest all data in the convolve layer namely strides and pool size to be increamented by 1 only
 	else :
-		entered_data += 150		 #the dense layer neurons to be incremented by 150				
+		entered_data += 100		 #the dense layer neurons to be incremented by 100				
 	inputs[line] = str(entered_data)	  #updating the input file with the changes							
 
 else:
@@ -84,7 +84,7 @@ else:
 
 		noOfLayers = int(inputs[index_fc])+1		                  #increasing the number of fc layers
 		inputs[index_fc]=str(noOfLayers)			#making the changes in the input file as number of fc lyers increased
-		entered_data -= 150					#reducing the number of neurons in the previous layer
+		entered_data -= 100					#reducing the number of neurons in the previous layer
 		old_data = entered_data				#since this shall be the base or initial value for this layer
 		inputs[line] = str(entered_data)			#decreasing the number of neurons in the previous layer in the input file
 		line += 1						#since a new fc layer added to point at
